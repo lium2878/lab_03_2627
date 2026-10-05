@@ -49,7 +49,7 @@ ggplot(bond.data, aes(x=Budget_Adj, y=US_Adj, color=Year)) +
 # Bond says "Bond, James Bond" and return??
 ```{r}
 ggplot(bond.data, aes(x=BJB, y=US_Adj)) +
-  geom_point(colour = "blue") +
+  geom_point(colour = "black") +
     scale_color_continuous()
 ```
 
